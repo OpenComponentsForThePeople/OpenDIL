@@ -1,0 +1,28 @@
+{
+    "components": {
+        "box": {
+            "element": "box",
+            "stylesheet": "DIL.css"
+        },
+
+        "ranking-board": {
+            "element": "ranking-board",
+            "stylesheet": "DIL.css"
+        },
+
+        "rank": {
+            "element": "rank",
+            "stylesheet": "DIL.css"
+        },
+
+        "icon": {
+            "element": "icon",
+            "stylesheet": "DIL.css"
+        },
+
+        "badge": {
+            "element": "badge",
+            "stylesheet": "DIL.css"
+        }
+    }
+}

@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>OpenDIL Example</title>
+
+        <link rel="stylesheet" href="DIL.css">
+        <link rel="stylesheet" href="website.css">
+        <link
+            rel="stylesheet"
+            href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined"
+        >
+    </head>
+
+    <body>
+        This is a (test) example of the box:
+
+        <box
+            color="#831843"
+            bg-color="#FCE7F3"
+            border="#F9A8D4">
+
+            <h1><icon>Favorite</icon> Pink</h1>
+            <p>Soft fill, regular page background.</p>
+
+        </box>
+
+        <ranking-board
+            title="Emoji ranking board"
+            description="Peak emotional damage."
+            ranks="3">
+
+            <rank
+                rankee="😭"
+                name="Crying"
+                label="YES YES"
+                score="10/10"
+                description="Peak emotional damage.">
+            </rank>
+
+            <rank
+                rankee="💀"
+                name="Skull"
+                label="YES YES"
+                score="9.8/10"
+                description="When the situation is beyond saving">
+            </rank>
+
+            <rank
+                rankee="😄"
+                name="Grinning"
+                label="NO-NO"
+                score="0/10"
+                description="Too cheerful. Suspicious.">
+            </rank>
+
+        </ranking-board>
+
+        <badge
+            color="#831843"
+            bg-color="#FCE7F3">
+            Success
+        </badge>
+        
+        <badge
+            color="#1E3A8A"
+            bg-color="#DBEAFE">
+            Information
+        </badge>
+        
+        <badge
+            color="#854D0E"
+            bg-color="#FEF9C3">
+            Warning
+        </badge>
+
+        
+
+        Ok enough example. Let's <b>TRY</b> to recreate some ChatGPT examples:
+
+        <box color="#00000" bg-color="#FCFCFC" border="#F0F0F0">
+          <h1><icon>stars_2</icon> OpenDIL Blueprint</h1>
+        
+          <!-- Row 1 -->
+          <div class="icon-row">
+            <icon>check_circle</icon> 
+            <span>Native Layout Components</span>
+          </div>
+      
+          <!-- Row 2 -->
+          <div class="icon-row">
+            <icon>brush</icon> 
+            <span>Pastel Backgrounds</span>
+          </div>
+      
+          <!-- Row 3 -->
+          <div class="icon-row">
+            <icon>arrow_selector_tool</icon> 
+            <span>Interactive controls</span>
+          </div>
+        </box>
+
+
+
+        <script src="renderer.js"></script>
+    </body>
+</html>

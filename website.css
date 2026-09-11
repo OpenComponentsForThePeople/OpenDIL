@@ -1,0 +1,24 @@
+body {
+    font-family: "Arial";
+    margin: 40px;
+    background-color: #fcfcfc;
+}
+
+.icon-row {
+  display: flex;         /* Puts the icon and text side-by-side */
+  align-items: center;   /* Perfectly centers the icon vertically with the text */
+  gap: 10px;             /* Space between the icon and the text description */
+  margin-bottom: 12px;   /* Space between each separate row */
+}
+
+/* Optional: Ensures your custom icon element behaves correctly inside the row */
+icon {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+}
+
+
+h1 {
+    margin-top: 0;
+}
