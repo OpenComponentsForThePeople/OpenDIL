@@ -1,0 +1,105 @@
+/* BOX */
+
+box {
+    display: flex;
+    flex-direction: column;
+
+    border: 1px solid;
+
+    border-radius: 16px;
+
+    padding: 16px;
+
+    gap: 8px;
+}
+
+icon {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+}
+
+/* RANKING BOARD */
+
+ranking-board {
+    display: flex;
+    flex-direction: column;
+
+    border: 1px solid #f4f4f4;
+    border-radius: 16px;
+
+    padding: 16px;
+    gap: 12px;
+}
+
+.ranking-header {
+    display: flex;
+    flex-direction: column;
+    gap: 4px;
+}
+
+.ranking-header p {
+    margin: 0;
+}
+
+.ranking-list {
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+}
+
+.rank-row {
+    display: flex;
+    align-items: center;
+    gap: 12px;
+
+    border: 1px solid #f4f4f4;
+    border-radius: 12px;
+
+    padding: 12px;
+}
+
+.rankee {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    flex-shrink: 0;
+
+    width: 44px;
+    height: 44px;
+
+    border-radius: 12px;
+    background: #f4f4f4;
+
+    font-size: 1.25rem;
+}
+
+.rank-content {
+    display: flex;
+    flex-direction: column;
+    flex: 1;
+}
+
+.rank-content p {
+    margin: 4px 0 0;
+}
+
+.rank-score {
+    flex-shrink: 0;
+}
+
+badge {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+
+    width: fit-content;
+
+    padding: 4px 8px;
+
+    border-radius: 999px;
+
+    font-size: 0.875rem;
+    font-weight: 500;
+}
